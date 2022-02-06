@@ -1,0 +1,13 @@
+{
+  "Title": "Experiment",
+  "Type": "game",
+  "Org": "local",
+  "Ident": "experiment",
+  "Schema": 1,
+  "HasAssets": true,
+  "AssetsPath": "",
+  "ResourcePaths": null,
+  "HasCode": true,
+  "CodePath": "/code/",
+  "RootNamespace": "Sandbox"
+}
