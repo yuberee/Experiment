@@ -1,0 +1,51 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "blendable.vfx"
+
+	F_MULTIBLEND 1 // 2 Layers
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+
+	//---- Fade ----
+	g_flFadeExponent "1.000"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Lighting ----
+	g_flDirectionalLightmapMinZ "0.050"
+	g_flDirectionalLightmapStrength "1.000"
+
+	//---- Material A ----
+	g_flTintColorA "[1.000000 1.000000 1.000000 0.000000]"
+	TextureAmbientOcclusionA "materials/clay/clay_ao.jpg"
+	TextureBlendMaskA "materials/default/default_blend.tga"
+	TextureColorA "materials/clay/clay_color.jpg"
+	TextureMetalnessA "materials/default/default_metal.tga"
+	TextureNormalA "materials/clay/clay_normal.jpg"
+	TextureRoughnessA "materials/clay/clay_rough.jpg"
+	TextureTintMaskA "materials/default/default.tga"
+
+	//---- Material B ----
+	g_flBlendSoftnessB "0.500"
+	g_flTintColorB "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordScale2 "[1.000 1.000]"
+	TextureAmbientOcclusionB "[1.000000 1.000000 1.000000 0.000000]"
+	TextureBlendMaskB "materials/default/default_blend.tga"
+	TextureColorB "materials/pool_tile_new/pool_tile_new_color.png"
+	TextureMetalnessB "materials/default/default_metal.tga"
+	TextureNormalB "materials/pool_tile_new/pool_tile_new_normal.png"
+	TextureRoughnessB "materials/pool_tile_new/pool_tile_new_rough.png"
+	TextureTintMaskB "materials/default/default.tga"
+
+	//---- Texture Coordinates ----
+	g_nScaleTexCoordUByModelScaleAxis "0"
+	g_nScaleTexCoordVByModelScaleAxis "0"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+}
