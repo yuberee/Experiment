@@ -2,20 +2,13 @@
 
 Layer0
 {
-	shader "complex.vfx"
+	shader "blendable.vfx"
 
-	//---- PBR ----
-	F_SPECULAR 1
-
-	//---- Ambient Occlusion ----
-	g_flAmbientOcclusionDirectDiffuse "0.000"
-	g_flAmbientOcclusionDirectSpecular "0.000"
-	TextureAmbientOcclusion "materials/pool_tile/pool_tile_ao.jpg"
+	F_MULTIBLEND 1 // 2 Layers
 
 	//---- Color ----
 	g_flModelTintAmount "1.000"
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
-	TextureColor "materials/pool_tile/pool_tile_color.jpg"
 
 	//---- Fade ----
 	g_flFadeExponent "1.000"
@@ -27,14 +20,27 @@ Layer0
 	g_flDirectionalLightmapMinZ "0.050"
 	g_flDirectionalLightmapStrength "1.000"
 
-	//---- Metalness ----
-	g_flMetalness "0.000"
+	//---- Material A ----
+	g_flTintColorA "[1.000000 1.000000 1.000000 0.000000]"
+	TextureAmbientOcclusionA "materials/pool_tile/pool_tile_ao.jpg"
+	TextureBlendMaskA "materials/default/default_blend.tga"
+	TextureColorA "materials/pool_tile/pool_tile_color.jpg"
+	TextureMetalnessA "materials/default/default_metal.tga"
+	TextureNormalA "materials/pool_tile/pool_tile_normal.jpg"
+	TextureRoughnessA "materials/pool_tile/pool_tile_rough.jpg"
+	TextureTintMaskA "materials/default/default.tga"
 
-	//---- Normal ----
-	TextureNormal "materials/pool_tile/pool_tile_normal.jpg"
-
-	//---- Roughness ----
-	TextureRoughness "materials/pool_tile/pool_tile_rough.jpg"
+	//---- Material B ----
+	g_flBlendSoftnessB "0.100"
+	g_flTintColorB "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordScale2 "[1.000 1.000]"
+	TextureAmbientOcclusionB "materials/worn_concrete/worn_concrete_ao.jpg"
+	TextureBlendMaskB "materials/default/default_blend.tga"
+	TextureColorB "materials/worn_concrete/worn_concrete_color.jpg"
+	TextureMetalnessB "materials/default/default_metal.tga"
+	TextureNormalB "materials/worn_concrete/worn_concrete_normal.jpg"
+	TextureRoughnessB "materials/worn_concrete/worn_concrete_rough.jpg"
+	TextureTintMaskB "materials/default/default.tga"
 
 	//---- Texture Coordinates ----
 	g_nScaleTexCoordUByModelScaleAxis "0"
