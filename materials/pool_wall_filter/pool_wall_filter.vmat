@@ -25,7 +25,7 @@ Layer0
 	g_flMetalness "0.000"
 
 	//---- Normal ----
-	TextureNormal "materials/default/default_normal.tga"
+	TextureNormal "materials/pool_wall_filter/pool_wall_filter_normal.png"
 
 	//---- Roughness ----
 	TextureRoughness "materials/pool_wall_filter/pool_wall_filter_rough.jpg"
