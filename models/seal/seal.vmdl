@@ -15,7 +15,7 @@
 						[
 							{
 								from = "seal.vmat"
-								to = "materials/dev/dev_hotspot_layout01.vmat"
+								to = "models/seal/seal.vmat"
 							},
 						]
 						use_global_default = false
