@@ -17,6 +17,10 @@
 								from = "seal.vmat"
 								to = "models/seal/seal.vmat"
 							},
+							{
+								from = "hair.vmat"
+								to = "models/seal/hair.vmat"
+							},
 						]
 						use_global_default = false
 						global_default_material = ""
