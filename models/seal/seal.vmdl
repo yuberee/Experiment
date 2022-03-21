@@ -163,8 +163,8 @@
 						swing_limit = 45.0
 						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
 						enable_twist_limit = true
-						min_twist_angle = -20.0
-						max_twist_angle = 20.0
+						min_twist_angle = -1.0
+						max_twist_angle = 1.0
 					},
 					{
 						_class = "PhysicsJointConical"
@@ -208,8 +208,8 @@
 						swing_limit = 45.0
 						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
 						enable_twist_limit = true
-						min_twist_angle = -20.0
-						max_twist_angle = 20.0
+						min_twist_angle = -1.0
+						max_twist_angle = 1.0
 					},
 					{
 						_class = "PhysicsJointConical"
