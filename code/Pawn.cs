@@ -31,7 +31,7 @@ namespace Sandbox
 			base.Simulate( cl );
 
 			Rotation = Input.Rotation;
-			EyeRot = Rotation;
+			EyeRotation = Rotation;
 
 			// build movement from the input values
 			var movement = new Vector3( Input.Forward, Input.Left, 0 ).Normal;
@@ -56,10 +56,10 @@ namespace Sandbox
 			{
 				var ragdoll = new ModelEntity();
 				ragdoll.SetModel( "models/citizen/citizen.vmdl" );
-				ragdoll.Position = EyePos + EyeRot.Forward * 40;
+				ragdoll.Position = EyePosition + EyeRotation.Forward * 40;
 				ragdoll.Rotation = Rotation.LookAt( Vector3.Random.Normal );
 				ragdoll.SetupPhysicsFromModel( PhysicsMotionType.Dynamic, false );
-				ragdoll.PhysicsGroup.Velocity = EyeRot.Forward * 1000;
+				ragdoll.PhysicsGroup.Velocity = EyeRotation.Forward * 1000;
 			}
 		}
 
@@ -72,7 +72,7 @@ namespace Sandbox
 
 			// Update rotation every frame, to keep things smooth
 			Rotation = Input.Rotation;
-			EyeRot = Rotation;
+			EyeRotation = Rotation;
 		}
 	}
 }
