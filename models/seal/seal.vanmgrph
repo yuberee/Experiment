@@ -85,7 +85,7 @@
 				{
 					m_id = 218296566
 				}
-				m_networkMode = "ClientSimulate"
+				m_networkMode = "ClientPredicted"
 				m_sNote = ""
 				m_baseChildID = 
 				{
@@ -117,7 +117,7 @@
 				{
 					m_id = 307582708
 				}
-				m_networkMode = "ClientSimulate"
+				m_networkMode = "ClientPredicted"
 				m_sNote = ""
 				m_sequenceName = "blink"
 				m_nFrameIndex = 0
@@ -138,7 +138,7 @@
 				{
 					m_id = 459106990
 				}
-				m_networkMode = "ClientSimulate"
+				m_networkMode = "ClientPredicted"
 				m_sNote = ""
 				m_baseChildID = 
 				{
@@ -170,7 +170,7 @@
 				{
 					m_id = 459918092
 				}
-				m_networkMode = "ClientSimulate"
+				m_networkMode = "ClientPredicted"
 				m_sNote = ""
 				m_baseChildID = 
 				{
@@ -202,7 +202,7 @@
 				{
 					m_id = 511858359
 				}
-				m_networkMode = "ClientSimulate"
+				m_networkMode = "ClientPredicted"
 				m_sNote = ""
 				m_baseChildID = 
 				{
@@ -234,7 +234,7 @@
 				{
 					m_id = 873439665
 				}
-				m_networkMode = "ClientSimulate"
+				m_networkMode = "ClientPredicted"
 				m_sNote = ""
 				m_tagSpans = [  ]
 				m_sequenceName = "walk_N"
@@ -256,7 +256,7 @@
 				{
 					m_id = 876184880
 				}
-				m_networkMode = "ClientSimulate"
+				m_networkMode = "ClientPredicted"
 				m_sNote = ""
 				m_childID = 
 				{
@@ -278,7 +278,7 @@
 				{
 					m_id = 891078409
 				}
-				m_networkMode = "ClientSimulate"
+				m_networkMode = "ClientPredicted"
 				m_sNote = ""
 				m_commentText = ""
 				m_size = [ 944.0, 128.0 ]
@@ -299,7 +299,7 @@
 				{
 					m_id = 940189566
 				}
-				m_networkMode = "ClientSimulate"
+				m_networkMode = "ClientPredicted"
 				m_sNote = ""
 				m_commentText = ""
 				m_size = [ 560.0, 144.0 ]
@@ -320,7 +320,7 @@
 				{
 					m_id = 1052699251
 				}
-				m_networkMode = "ClientSimulate"
+				m_networkMode = "ClientPredicted"
 				m_sNote = ""
 				m_children = 
 				[
@@ -367,7 +367,7 @@
 				{
 					m_id = 1070480702
 				}
-				m_networkMode = "ClientSimulate"
+				m_networkMode = "ClientPredicted"
 				m_sNote = ""
 				m_tagSpans = [  ]
 				m_sequenceName = "blink"
@@ -389,7 +389,7 @@
 				{
 					m_id = 1103808608
 				}
-				m_networkMode = "ClientSimulate"
+				m_networkMode = "ClientPredicted"
 				m_sNote = ""
 				m_commentText = ""
 				m_size = [ 1376.0, 464.0 ]
@@ -410,7 +410,7 @@
 				{
 					m_id = 1160873535
 				}
-				m_networkMode = "ClientSimulate"
+				m_networkMode = "ClientPredicted"
 				m_sNote = ""
 				m_baseChildID = 
 				{
@@ -442,7 +442,7 @@
 				{
 					m_id = 1213287667
 				}
-				m_networkMode = "ClientSimulate"
+				m_networkMode = "ClientPredicted"
 				m_sNote = ""
 				m_sequenceName = "honk"
 				m_nFrameIndex = 0
@@ -463,7 +463,7 @@
 				{
 					m_id = 1387918407
 				}
-				m_networkMode = "ClientSimulate"
+				m_networkMode = "ClientPredicted"
 				m_sNote = ""
 				m_commentText = ""
 				m_size = [ 944.0, 128.0 ]
@@ -484,7 +484,7 @@
 				{
 					m_id = 1390923771
 				}
-				m_networkMode = "ClientSimulate"
+				m_networkMode = "ClientPredicted"
 				m_sNote = ""
 				m_tagSpans = [  ]
 				m_sequenceName = "honk"
@@ -506,7 +506,7 @@
 				{
 					m_id = 1492989903
 				}
-				m_networkMode = "ClientSimulate"
+				m_networkMode = "ClientPredicted"
 				m_sNote = ""
 				m_sequenceName = "honk"
 				m_nFrameIndex = 0
@@ -527,7 +527,7 @@
 				{
 					m_id = 1546580144
 				}
-				m_networkMode = "ClientSimulate"
+				m_networkMode = "ClientPredicted"
 				m_sNote = ""
 				m_tagSpans = [  ]
 				m_sequenceName = "breath_layer"
@@ -549,7 +549,7 @@
 				{
 					m_id = 1557450696
 				}
-				m_networkMode = "ClientSimulate"
+				m_networkMode = "ClientPredicted"
 				m_sNote = ""
 				m_sequenceName = "breath_layer"
 				m_nFrameIndex = 0
@@ -570,7 +570,7 @@
 				{
 					m_id = 1754659647
 				}
-				m_networkMode = "ClientSimulate"
+				m_networkMode = "ClientPredicted"
 				m_sNote = ""
 				m_baseChildID = 
 				{
@@ -602,7 +602,7 @@
 				{
 					m_id = 1905515500
 				}
-				m_networkMode = "ClientSimulate"
+				m_networkMode = "ClientPredicted"
 				m_sNote = ""
 				m_children = 
 				[
@@ -649,7 +649,7 @@
 				{
 					m_id = 1936764480
 				}
-				m_networkMode = "ClientSimulate"
+				m_networkMode = "ClientPredicted"
 				m_sNote = ""
 				m_states = 
 				[
@@ -783,7 +783,7 @@
 				{
 					m_id = 1955228503
 				}
-				m_networkMode = "ClientSimulate"
+				m_networkMode = "ClientPredicted"
 				m_sNote = ""
 				m_baseChildID = 
 				{
@@ -815,7 +815,7 @@
 				{
 					m_id = 2001228657
 				}
-				m_networkMode = "ClientSimulate"
+				m_networkMode = "ClientPredicted"
 				m_sNote = ""
 				m_baseChildID = 
 				{
@@ -847,7 +847,7 @@
 				{
 					m_id = 2007915352
 				}
-				m_networkMode = "ClientSimulate"
+				m_networkMode = "ClientPredicted"
 				m_sNote = ""
 				m_states = 
 				[
@@ -968,7 +968,7 @@
 				{
 					m_id = 2057406574
 				}
-				m_networkMode = "ClientSimulate"
+				m_networkMode = "ClientPredicted"
 				m_sNote = ""
 				m_tagSpans = [  ]
 				m_sequenceName = "honk"
@@ -990,7 +990,7 @@
 				{
 					m_id = 2116518550
 				}
-				m_networkMode = "ClientSimulate"
+				m_networkMode = "ClientPredicted"
 				m_sNote = ""
 				m_states = 
 				[
