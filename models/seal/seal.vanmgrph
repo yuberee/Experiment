@@ -51,6 +51,21 @@
 				m_fMaxValue = 1.0
 				m_bInterpolate = true
 			},
+			{
+				_class = "CVectorAnimParameter"
+				m_name = "Lookat"
+				m_id = 
+				{
+					m_id = 1251677546
+				}
+				m_previewButton = "ANIMPARAM_BUTTON_NONE"
+				m_bNetwork = true
+				m_bUseMostRecentValue = false
+				m_bAutoReset = false
+				m_bPredicted = true
+				m_defaultValue = [ 30.0, 0.0, 0.0 ]
+				m_bInterpolate = true
+			},
 		]
 	}
 	m_pTagManager = 
@@ -229,6 +244,54 @@
 		{
 			key = 
 			{
+				m_id = 308515815
+			}
+			value = 
+			{
+				_class = "CLookAtAnimNode"
+				m_sName = "Look At"
+				m_vecPosition = [ 1344.0, 288.0 ]
+				m_nNodeID = 
+				{
+					m_id = 308515815
+				}
+				m_networkMode = "ClientPredicted"
+				m_sNote = ""
+				m_childID = 
+				{
+					m_id = 1160873535
+				}
+				m_target = "VectorParameter"
+				m_param = 
+				{
+					m_id = 1251677546
+				}
+				m_weightParam = 
+				{
+					m_id = 4294967295
+				}
+				m_lookatChainName = "Lookat"
+				m_attachmentName = "Forward"
+				m_flYawLimit = 90.0
+				m_flPitchLimit = 90.0
+				m_bResetBase = false
+				m_bLockWhenWaning = false
+				m_bUseHysteresis = false
+				m_flHysteresisInnerAngle = 1.0
+				m_flHysteresisOuterAngle = 20.0
+				m_damping = 
+				{
+					_class = "CAnimInputDamping"
+					m_speedFunction = "Spring"
+					m_fSpeedScale = 5.0
+					m_fMinSpeed = 5.0
+					m_fMaxTension = 1000.0
+				}
+			}
+		},
+		{
+			key = 
+			{
 				m_id = 459106990
 			}
 			value = 
@@ -353,7 +416,7 @@
 			{
 				_class = "CRootAnimNode"
 				m_sName = "Unnamed"
-				m_vecPosition = [ 1216.0, 32.0 ]
+				m_vecPosition = [ 1584.0, 288.0 ]
 				m_nNodeID = 
 				{
 					m_id = 876184880
@@ -362,7 +425,7 @@
 				m_sNote = ""
 				m_childID = 
 				{
-					m_id = 1160873535
+					m_id = 308515815
 				}
 			}
 		},
