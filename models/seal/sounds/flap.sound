@@ -3,10 +3,10 @@
 	data = 
 	{
 		ui = false
-		volume = 0.5
+		volume = 0.3
 		volumerandom = 0.0
 		pitch = 1.0
-		pitchrandom = 0.5
+		pitchrandom = 0.6
 		distancemax = 500.0
 		sounds = 
 		[
