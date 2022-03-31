@@ -49,6 +49,22 @@ namespace Sandbox
 				pawn.Transform = tx;
 			}
 		}
+
+		[ServerCmd("spawnseal")]
+		public static void SpawnSeal()
+		{
+
+			Player ply = ConsoleSystem.Caller.Pawn as Player;
+
+			TraceResult ray = Trace.Ray( Input.Cursor, 5000f )
+				.WorldOnly()
+				.Run();
+
+			Seal seal = new Seal();
+			seal.Position = ray.EndPosition;
+
+
+		}
 	}
 
 }

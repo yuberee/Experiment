@@ -1082,7 +1082,7 @@
 						inverted_collision = false
 						radius0 = 7.0
 						radius1 = 5.3
-						point0 = [ 0.003547, -10.01963, 0.651835 ]
+						point0 = [ 0.003134, -8.084105, 0.610336 ]
 						point1 = [ 0.000139, 5.946405, 0.309511 ]
 					},
 				]
@@ -1090,6 +1090,6 @@
 		]
 		model_archetype = ""
 		primary_associated_entity = ""
-		anim_graph_name = ""
+		anim_graph_name = "models/seal/seal.vanmgrph"
 	}
 }
