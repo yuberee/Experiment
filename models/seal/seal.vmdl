@@ -789,24 +789,28 @@
 							},
 							{
 								_class = "AnimEvent"
-								event_class = "AE_FOOTSTEP"
+								event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
 								event_frame = 6
 								event_keys = 
 								{
 									Attachment = "foot_L"
-									Foot = "0"
-									Volume = 1.0
+									name = "flap"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
 								}
 							},
 							{
 								_class = "AnimEvent"
-								event_class = "AE_FOOTSTEP"
+								event_class = "AE_CL_PLAYSOUND_ATTACHMENT"
 								event_frame = 7
 								event_keys = 
 								{
 									Attachment = "foot_R"
-									Foot = "1"
-									Volume = 1.0
+									name = "flap"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
 								}
 							},
 						]
@@ -957,13 +961,13 @@
 				[
 					{
 						_class = "ClothParams"
-						default_stretch = 0.666
+						default_stretch = 1.0
 						additional_shear_stretch = 0.0
 						extra_iterations = 0
 						extra_goal_iterations = 0
 						extra_pressure_iterations = 0
 						goal_strength_bias = 0.0
-						default_gravity_scale = 0.666
+						default_gravity_scale = 0.5
 						default_vel_air_drag = 0.0
 						default_exp_air_drag = 0.0
 						velocity_smooth_rate = 0.0
@@ -1058,6 +1062,28 @@
 								},
 							]
 						}
+					},
+				]
+			},
+			{
+				_class = "ClothShapeList"
+				children = 
+				[
+					{
+						_class = "ClothShapeCapsule"
+						parent_bone = "neck"
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						cloth_stickiness = 0.0
+						cloth_collision_priority = 0
+						vertex_map = ""
+						inverted_collision = false
+						radius0 = 7.0
+						radius1 = 5.0
+						point0 = [ -0.009343, -3.766098, 1.261901 ]
+						point1 = [ 0.0, 5.88282, 0.28967 ]
 					},
 				]
 			},
