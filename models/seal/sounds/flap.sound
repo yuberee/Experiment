@@ -6,7 +6,7 @@
 		volume = 0.3
 		volumerandom = 0.0
 		pitch = 1.0
-		pitchrandom = 0.6
+		pitchrandom = 0.4
 		distancemax = 500.0
 		sounds = 
 		[
